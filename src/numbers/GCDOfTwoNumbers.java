@@ -2,7 +2,8 @@ package numbers;
 
 public class GCDOfTwoNumbers {
     public static void main(String[] args) {
-        int gcdOfTwoNumbers = gcdOfTwoNumbers(4, 8);
+        // int gcdOfTwoNumbers = gcdOfTwoNumbers(12, 18);  // 6
+        int gcdOfTwoNumbers = gcdOfTwoNumbers(18, 12);  // 6
         System.out.println(gcdOfTwoNumbers);
     }
 
