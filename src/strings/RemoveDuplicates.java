@@ -4,6 +4,9 @@ public class RemoveDuplicates {
     public static void main(String[] args) {
         String input = "programming";
         removeDuplicates(input);
+
+        System.out.println("==================");
+        removeDuplicates1(input);
     }
 
     /**
@@ -28,6 +31,20 @@ public class RemoveDuplicates {
                 }
             }
             if (!found) {
+                result = result + ch;
+            }
+        }
+        System.out.println("Original String: " + input);
+        System.out.println("After removing duplicates: " + result);
+    }
+
+    public static void removeDuplicates1(String input) {
+        boolean[] visited = new boolean[256];
+        String result = "";
+        for (int i = 0; i < input.length(); i++) {
+            char ch = input.charAt(i);
+            if (!visited[ch]) {
+                visited[ch] = true;
                 result = result + ch;
             }
         }
