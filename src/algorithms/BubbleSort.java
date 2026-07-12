@@ -6,7 +6,7 @@ public class BubbleSort {
         bubbleSort(arr);
 
         System.out.println("=====Bubble Sort of Unsorted Array=====");
-        printArray(arr);
+        printArray(arr);    //  11 12 22 25 34 64 90
     }
 
     /**
