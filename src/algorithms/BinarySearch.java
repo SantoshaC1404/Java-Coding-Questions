@@ -6,10 +6,10 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50, 60, 70};
         int key = 50;
-        binarySearch(arr, key);
+        binarySearch(arr, key);     // Element found at index: 4
 
         System.out.println("\n=====Binary Search of Unsorted Array=====");
-        binarySearchOfUnsortedArray(arr, key);
+        binarySearchOfUnsortedArray(arr, key);      // Element found at index: 4
     }
 
     /**
