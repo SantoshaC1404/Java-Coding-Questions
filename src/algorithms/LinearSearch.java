@@ -6,7 +6,7 @@ public class LinearSearch {
 
         int key = 50;
 
-        linearSearch(arr, key);
+        linearSearch(arr, key);     // Found
     }
 
     /**
